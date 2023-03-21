@@ -59,24 +59,39 @@ package com.example.mynavi.basic;
 // }
 
 
+// class Main {
+//   public static void main(String[] args) {
+//     // trueと出力
+//     System.out.println(true || false);
+    
+//     // falseと出力
+//     System.out.println(false && true);
+    
+//     // 「8 < 5」かつ「3 >= 2」の結果
+//     System.out.println(8<5 && 3>2);
+//     //false
+    
+//     // 「8 < 5」または「3 >= 2」の結果
+//     System.out.println(8<5 || 3>=2);
+//     //true
+    
+//     // 「8 < 5」でない、の結果
+//     System.out.println(!(8<5));
+//     //true
+//   }
+// }
+
 class Main {
   public static void main(String[] args) {
-    // trueと出力
-    System.out.println(true || false);
+    int number = 12;
     
-    // falseと出力
-    System.out.println(false && true);
-    
-    // 「8 < 5」かつ「3 >= 2」の結果
-    System.out.println(8<5 && 3>2);
-    //false
-    
-    // 「8 < 5」または「3 >= 2」の結果
-    System.out.println(8<5 || 3>=2);
-    //true
-    
-    // 「8 < 5」でない、の結果
-    System.out.println(!(8<5));
-    //true
+    // numberが20より小さいとき、どちらでもないときの条件分岐
+    if (number < 10) {
+      System.out.println("10より小さい");
+    } else if(number < 20) {
+      System.out.println("10以上、20より小さい");
+    } else {
+    System.out.println("20以上");
+    }
   }
 }
