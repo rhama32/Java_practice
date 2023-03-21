@@ -81,17 +81,33 @@ package com.example.mynavi.basic;
 //   }
 // }
 
+// class Main {
+//   public static void main(String[] args) {
+//     int number = 12;
+    
+//     // numberが20より小さいとき、どちらでもないときの条件分岐
+//     if (number < 10) {
+//       System.out.println("10より小さい");
+//     } else if(number < 20) {
+//       System.out.println("10以上、20より小さい");
+//     } else {
+//     System.out.println("20以上");
+//     }
+//   }
+// }
+
 class Main {
   public static void main(String[] args) {
-    int number = 12;
+    int n = 1;
     
-    // numberが20より小さいとき、どちらでもないときの条件分岐
-    if (number < 10) {
-      System.out.println("10より小さい");
-    } else if(number < 20) {
-      System.out.println("10以上、20より小さい");
-    } else {
-    System.out.println("20以上");
-    }
+    // switch文を用いて、変数nの値に応じて条件分岐
+   switch(n) {
+     case 1:
+       System.out.println("吉です");
+       break;
+     case 2:
+     System.out.println("末吉です");
+     break;
+   }
   }
 }
