@@ -1,5 +1,18 @@
 package com.example.mynavi.basic;
- 
+
+
+class Main {
+  public static void main(String[] args) {
+    String[] names = {"Tom", "John", "Mike"};
+    
+    // for文を用いて、「名前は◯◯です」と出力
+    for(int i = 0; i < names.length; i++) {
+    System.out.println("名前は" + names[i] + "です");
+    }
+  }
+}
+
+
 // public class Variable {
 //   public static void main(String[] args) {
 //     double num = 3.14;
@@ -148,18 +161,18 @@ package com.example.mynavi.basic;
 // }
 
 
-class Main {
-  public static void main(String[] args) {
-    // 変数languagesを定義し、配列を代入
-    String [] languages = {"Ruby", "PHP", "Python"};
+// class Main {
+//   public static void main(String[] args) {
+//     // 変数languagesを定義し、配列を代入
+//     String [] languages = {"Ruby", "PHP", "Python"};
     
-    // インデックス番号が「1」の要素を出力
-    System.out.println(languages[1]);
+//     // インデックス番号が「1」の要素を出力
+//     System.out.println(languages[1]);
     
-    // インデックス番号が「1」の要素を「Java」で上書き
-    languages [1] = "Java";
+//     // インデックス番号が「1」の要素を「Java」で上書き
+//     languages [1] = "Java";
     
-    // インデックス番号が「1」の要素を出力
-    System.out.println(languages[1]);
-  }
-}
+//     // インデックス番号が「1」の要素を出力
+//     System.out.println(languages[1]);
+//   }
+// }
