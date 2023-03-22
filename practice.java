@@ -112,11 +112,54 @@ package com.example.mynavi.basic;
 //   }
 // }
 
+// class Main {
+//   public static void main(String[] args) {
+
+//     for(int i = 1; i <= 15; i++) {
+//       System.out.println( i+ "回目");
+//     }
+//   }
+// }
+
+
+// class Main {
+//   public static void main(String[] args) {
+//     System.out.println("=== while文 ===");
+//     int i = 1;
+//     while (i < 10) {
+//       // iが5の倍数のとき、繰り返し処理を終了
+//       if(i % 5 == 0) {
+//       break;
+//       }
+      
+//       System.out.println(i);
+//       i++;
+//     }
+    
+//     System.out.println("=== for文 ===");
+//     for (int j = 1; j < 10; j++) {
+//       // jが3の倍数のとき、処理をスキップ
+//       if(j % 3 == 0) {
+//         continue;
+//       }
+//       System.out.println(j);
+//     }
+//   }
+// }
+
+
 class Main {
   public static void main(String[] args) {
-
-    for(int i = 1; i <= 10; i++) {
-      System.out.println( i+ "回目");
-    }
+    // 変数languagesを定義し、配列を代入
+    String [] languages = {"Ruby", "PHP", "Python"};
+    
+    // インデックス番号が「1」の要素を出力
+    System.out.println(languages[1]);
+    
+    // インデックス番号が「1」の要素を「Java」で上書き
+    languages [1] = "Java";
+    
+    // インデックス番号が「1」の要素を出力
+    System.out.println(languages[1]);
   }
 }
