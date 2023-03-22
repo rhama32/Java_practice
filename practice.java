@@ -1,14 +1,36 @@
 package com.example.mynavi.basic;
 
 
+// class Main {
+//   public static void main(String[] args) {
+//     String[] names = {"Tom", "John", "Mike"};
+    
+//     // for文を用いて、「名前は◯◯です」と出力
+//     for(int i = 0; i < names.length; i++) {
+//     System.out.println("名前は" + names[i] + "です");
+//     }
+//   }
+// }
+
+
 class Main {
   public static void main(String[] args) {
-    String[] names = {"Tom", "John", "Mike"};
+    // 変数numbersに、与えられた数字の配列を代入
+    int [] numbers = {1, 4, 6, 9, 13, 16};
     
-    // for文を用いて、「名前は◯◯です」と出力
-    for(int i = 0; i < names.length; i++) {
-    System.out.println("名前は" + names[i] + "です");
+    int oddSum = 0;
+    int evenSum = 0;
+    
+    // for文を用いて、配列numbersの偶数の和と奇数の和
+    for (int number : numbers) {
+      if (number % 2 == 0) {
+        evenSum += number;
+      } else {
+        oddSum += number;
+      }
     }
+    System.out.println("奇数の和は" + oddSum );
+    System.out.println("偶数の和は" + evenSum );
   }
 }
 
