@@ -96,18 +96,27 @@ package com.example.mynavi.basic;
 //   }
 // }
 
+// class Main {
+//   public static void main(String[] args) {
+//     int n = 1;
+    
+//     // switch文を用いて、変数nの値に応じて条件分岐
+//   switch(n) {
+//     case 1:
+//       System.out.println("吉です");
+//       break;
+//     case 2:
+//     System.out.println("末吉です");
+//     break;
+//   }
+//   }
+// }
+
 class Main {
   public static void main(String[] args) {
-    int n = 1;
-    
-    // switch文を用いて、変数nの値に応じて条件分岐
-   switch(n) {
-     case 1:
-       System.out.println("吉です");
-       break;
-     case 2:
-     System.out.println("末吉です");
-     break;
-   }
+
+    for(int i = 1; i <= 10; i++) {
+      System.out.println( i+ "回目");
+    }
   }
 }
