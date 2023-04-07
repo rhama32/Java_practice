@@ -7,11 +7,11 @@ class practice6_4 {
 		int numberY = 4 ;
 		int numberZ = 5 ;
 		
-		//『 && 』
+		//『 && 』かつ
 		boolean logicalValue1 = numberX != numberY && numberY > numberZ ;
 		System.out.println("logicalValue1：" + logicalValue1);
 		
-		//『 || 』
+		//『 || 』または
 		boolean logicalValue2 = numberX != numberY || numberY > numberZ ;
 		System.out.println("logicalValue2：" + logicalValue2);
 		
