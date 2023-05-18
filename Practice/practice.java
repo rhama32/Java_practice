@@ -9,6 +9,32 @@ class Main {
   }
 }
 
+//     // for文を用いて、配列numbersの偶数の和と奇数の和
+//     for (int number : numbers) {
+//       if (number % 2 == 0) {
+//         evenSum += number;
+//       } else {
+//         oddSum += number;
+//       }
+//     }
+//     System.out.println("奇数の和は" + oddSum );
+//     System.out.println("偶数の和は" + evenSum );
+//   }
+// }
+// public class Variable {
+//   public static void main(String[] args) {
+//     double num = 3.14;
+//     System.out.println(num);
+//小数点学習
+// class Main {
+//   public static void main(String[] args) {
+//     double number1 = 11.5;
+//     double number2 = 11.2;
+//     System.out.println(number1 + number2);
+//     System.out.println(number1 - number2);
+//   }
+// }
+
 // class Main {
 //   public static void main(String[] args) {
 //     // 変数numbersに、与えられた数字の配列を代入
